@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EnjHomeModule_Example' do
+  pod 'EnjHomeModule', :path => '../'
+
+  target 'EnjHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
