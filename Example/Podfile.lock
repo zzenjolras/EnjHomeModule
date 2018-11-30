@@ -1,5 +1,5 @@
 PODS:
-  - EnjHomeModule (0.1.0)
+  - EnjHomeModule (0.2.0)
 
 DEPENDENCIES:
   - EnjHomeModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EnjHomeModule: c54b7e53abab10a791793ed25863462bd65a00c1
+  EnjHomeModule: 20017624a1effaecdf2ee96bc2c457a354604935
 
 PODFILE CHECKSUM: d90edd109f1a7bc075726f54a830f0154775c284
 
