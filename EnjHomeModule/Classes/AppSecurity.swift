@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AppSecurity: NSObject {
+public class AppSecurity: NSObject {
     
     // http://www.jianshu.com/p/96f8a8d0d9fc
     /// 正则匹配手机号

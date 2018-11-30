@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EnjHomeModule'
   # 版本号必填
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   # 描述必填
   s.summary          = 'This is EnjHomeModule.'
 

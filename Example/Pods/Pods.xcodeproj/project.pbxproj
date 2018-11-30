@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01051B9883D8269E87CACB18554E0616 /* AppSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C46560152F5A814AC71F2347488FF /* AppSecurity.swift */; };
-		1D085AFA5BA6886DE5C0B55E966844D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2DB2AF6F7711C01E95DA890DC7662614 /* Pods-EnjHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 658EF5CAE7269B98341C08B7543CC711 /* Pods-EnjHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C6CE3B2E8B29CAB9B551DE47350DA69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5A55AC788E45251D697CE16A9BE8C5D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5CCBB87842912E989EE9E33B1210ABC5 /* EnjHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2CDB5EFC010B85C7B1780AEA2A000E /* EnjHomeModule-dummy.m */; };
+		5D74D5D120303081EA7941D4BD4FBB0D /* Exc_007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DB0C46BFD81B399F45B9D09719BC3 /* Exc_007.swift */; };
+		5DD046C5205281C926F55CF92A4887F3 /* EnjHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E89075BC9CC27E785B98B644D55AE2 /* EnjHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66FBE9960B3388A2965C1FCE23D09267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		68E5F222CF4070DE41B0F528F9CE8F4D /* EnjHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 462F6D41B65E4171191DF220EB80E50E /* EnjHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87FE8B2CB15FA02C42411D061C8E6C5E /* EnjHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F7DB55035685A8625CF62D56CC572 /* EnjHomeModule-dummy.m */; };
 		A35FAA111C29B52A826BCD790CB5FCAD /* Pods-EnjHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9CF978BE9E9212059BDD3677912E5 /* Pods-EnjHomeModule_Tests-dummy.m */; };
 		B431D12C4090380DE1903790D3B69C1A /* Pods-EnjHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8BDAB99A489D77A2EEA69DAAEF7ABE /* Pods-EnjHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA024A95AB17A7FBFC05EE827A5ECAD3 /* AppSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADC3097AF06E3D3694FC9B4AD5BC76F /* AppSecurity.swift */; };
 		EA1DE3BA89197FDE7DD1EAD0C5F5F201 /* Pods-EnjHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D614B6F81FFA293BE15575A8E0A1CA7D /* Pods-EnjHomeModule_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -31,44 +32,45 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EFE35C258A0F92E1857B5E382996BE80;
+			remoteGlobalIDString = B96BC3B3DE2FC940EC5C3F18C49D83C0;
 			remoteInfo = EnjHomeModule;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0450B7CD65D025CD50A2A31A04662A5C /* Pods-EnjHomeModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnjHomeModule_Example-resources.sh"; sourceTree = "<group>"; };
-		06E1CBE03BAC328C80C30285DD8AA313 /* EnjHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = EnjHomeModule.podspec; sourceTree = "<group>"; };
-		09B32AE75271EA74E923912436D3D207 /* Pods_EnjHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnjHomeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CCD15DBC22D320650EDE3E463139F58 /* EnjHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnjHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EF1FC42FC19D0300998E3E48B658A34 /* EnjHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EnjHomeModule.modulemap; sourceTree = "<group>"; };
-		14D0C9118F7E157A58C7FB89B69C7DF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09B32AE75271EA74E923912436D3D207 /* Pods_EnjHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnjHomeModule_Tests.framework; path = "Pods-EnjHomeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCD15DBC22D320650EDE3E463139F58 /* EnjHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EnjHomeModule.framework; path = EnjHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1541AB7E3098318112C237826B88969F /* Pods-EnjHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnjHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2109055CCA049DC27E0AE4727DB1064A /* EnjHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EnjHomeModule.xcconfig; sourceTree = "<group>"; };
+		20E89075BC9CC27E785B98B644D55AE2 /* EnjHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnjHomeModule-umbrella.h"; sourceTree = "<group>"; };
 		26D81528F62CF1C075DE6E694C50C45E /* Pods-EnjHomeModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnjHomeModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		26FDB3A4CE9135C9052F2E2279B5F66D /* Pods-EnjHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnjHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		27575A8D4232C2980B4A3CF37FBBD78A /* Pods-EnjHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnjHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
-		410C843D65447859170C903FAFBD04D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		462F6D41B65E4171191DF220EB80E50E /* EnjHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnjHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		2AE9884B45F2F4CE31DF9673B2A7976C /* EnjHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EnjHomeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		322F7DB55035685A8625CF62D56CC572 /* EnjHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EnjHomeModule-dummy.m"; sourceTree = "<group>"; };
+		393C8A13F2C4F469AFCBC8930E81F83A /* EnjHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnjHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		47DD3C8C6537FEF91796FF99B3ADFE91 /* Pods-EnjHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnjHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		484DB0C46BFD81B399F45B9D09719BC3 /* Exc_007.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exc_007.swift; path = EnjHomeModule/Classes/Exc_007.swift; sourceTree = "<group>"; };
 		4D98550E7590F9ECA166A0C5643DA278 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50957DEB4D2BCC6ADE7B5AD7FF01D92D /* Pods_EnjHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnjHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5482A83C180CD4FF283D3535706DF73F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DC15E33B365ABEC448EEA18FF15D0E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50957DEB4D2BCC6ADE7B5AD7FF01D92D /* Pods_EnjHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnjHomeModule_Example.framework; path = "Pods-EnjHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C2D820E09054BF923109D6ACFB317B /* Pods-EnjHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnjHomeModule_Example.modulemap"; sourceTree = "<group>"; };
+		5ADC3097AF06E3D3694FC9B4AD5BC76F /* AppSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppSecurity.swift; path = EnjHomeModule/Classes/AppSecurity.swift; sourceTree = "<group>"; };
 		63876D83A8C050977982AF08CFEEB9A4 /* Pods-EnjHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnjHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		658EF5CAE7269B98341C08B7543CC711 /* Pods-EnjHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnjHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		822AFD898246692E98EFED27A22104AB /* EnjHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnjHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		7EB4F0B078DE5B059BB518B07FE72E50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		85B9CF978BE9E9212059BDD3677912E5 /* Pods-EnjHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnjHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		8A35316386AB942702EE26A042298570 /* Pods-EnjHomeModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnjHomeModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C2CDB5EFC010B85C7B1780AEA2A000E /* EnjHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EnjHomeModule-dummy.m"; sourceTree = "<group>"; };
-		A12C46560152F5A814AC71F2347488FF /* AppSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppSecurity.swift; path = EnjHomeModule/Classes/AppSecurity.swift; sourceTree = "<group>"; };
+		8D10B897367EBD7750532D252F80912B /* EnjHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EnjHomeModule.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4AD6E7F2552F7BA7108FAC00C613815 /* Pods-EnjHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnjHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF8BDAB99A489D77A2EEA69DAAEF7ABE /* Pods-EnjHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnjHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B2CBAAE15C445F340ABF2CE716054C3B /* Pods-EnjHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnjHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B60E53A75D1E9986B7FF83C5C5B7EBF0 /* Pods-EnjHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnjHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3759F274F91703F3A1068D9CEDF2041 /* EnjHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EnjHomeModule.modulemap; sourceTree = "<group>"; };
 		D614B6F81FFA293BE15575A8E0A1CA7D /* Pods-EnjHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnjHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
+		D623B15F52EC5301B3C3E484A9A9C715 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D72A74BA596063A0F6D89BC508138C2A /* Pods-EnjHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnjHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA54DA5D468631D40FEAC3B4B5BAACAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8427AAD7A5DDF66B896964336204DF /* Pods-EnjHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnjHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -83,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85F6AD87E2FA74CD6B45318D3FB08C57 /* Frameworks */ = {
+		A1A4FE3D81DC00A024B0FCD85B976C62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D085AFA5BA6886DE5C0B55E966844D7 /* Foundation.framework in Frameworks */,
+				4C6CE3B2E8B29CAB9B551DE47350DA69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,29 +104,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17E109CCD16D7F14A511467990E15A71 /* Support Files */ = {
+		343495617302556A1516AB0AFF7F2CAC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0EF1FC42FC19D0300998E3E48B658A34 /* EnjHomeModule.modulemap */,
-				2109055CCA049DC27E0AE4727DB1064A /* EnjHomeModule.xcconfig */,
-				9C2CDB5EFC010B85C7B1780AEA2A000E /* EnjHomeModule-dummy.m */,
-				822AFD898246692E98EFED27A22104AB /* EnjHomeModule-prefix.pch */,
-				462F6D41B65E4171191DF220EB80E50E /* EnjHomeModule-umbrella.h */,
-				410C843D65447859170C903FAFBD04D1 /* Info.plist */,
+				D3759F274F91703F3A1068D9CEDF2041 /* EnjHomeModule.modulemap */,
+				8D10B897367EBD7750532D252F80912B /* EnjHomeModule.xcconfig */,
+				322F7DB55035685A8625CF62D56CC572 /* EnjHomeModule-dummy.m */,
+				393C8A13F2C4F469AFCBC8930E81F83A /* EnjHomeModule-prefix.pch */,
+				20E89075BC9CC27E785B98B644D55AE2 /* EnjHomeModule-umbrella.h */,
+				4DC15E33B365ABEC448EEA18FF15D0E8 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EnjHomeModule";
 			sourceTree = "<group>";
 		};
-		4459F0F9F71BDAFA8AD6D722CD7843A8 /* EnjHomeModule */ = {
+		5F57CF5F1D9D5866F2205F2F4882771B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A12C46560152F5A814AC71F2347488FF /* AppSecurity.swift */,
-				B4753D927246C81A28EDB70DF918EF79 /* Pod */,
-				17E109CCD16D7F14A511467990E15A71 /* Support Files */,
+				2AE9884B45F2F4CE31DF9673B2A7976C /* EnjHomeModule.podspec */,
+				7EB4F0B078DE5B059BB518B07FE72E50 /* LICENSE */,
+				D623B15F52EC5301B3C3E484A9A9C715 /* README.md */,
 			);
-			name = EnjHomeModule;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		65A4C521547505FFBCCF7442AA906FB8 /* Targets Support Files */ = {
@@ -136,11 +137,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7CDF7770CAC00A7F771B1695F9AE71DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93F0F16AC34479C9989F85D193D1B0D0 /* EnjHomeModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				99BA5FE7C54949932C1F665C2102D85C /* Development Pods */,
+				7CDF7770CAC00A7F771B1695F9AE71DB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C4BC0CAD3E3AEA7FB14C94E8B879040C /* Products */,
 				65A4C521547505FFBCCF7442AA906FB8 /* Targets Support Files */,
@@ -165,22 +174,16 @@
 			path = "Target Support Files/Pods-EnjHomeModule_Tests";
 			sourceTree = "<group>";
 		};
-		99BA5FE7C54949932C1F665C2102D85C /* Development Pods */ = {
+		93F0F16AC34479C9989F85D193D1B0D0 /* EnjHomeModule */ = {
 			isa = PBXGroup;
 			children = (
-				4459F0F9F71BDAFA8AD6D722CD7843A8 /* EnjHomeModule */,
+				5ADC3097AF06E3D3694FC9B4AD5BC76F /* AppSecurity.swift */,
+				484DB0C46BFD81B399F45B9D09719BC3 /* Exc_007.swift */,
+				5F57CF5F1D9D5866F2205F2F4882771B /* Pod */,
+				343495617302556A1516AB0AFF7F2CAC /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B4753D927246C81A28EDB70DF918EF79 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				06E1CBE03BAC328C80C30285DD8AA313 /* EnjHomeModule.podspec */,
-				14D0C9118F7E157A58C7FB89B69C7DF4 /* LICENSE */,
-				5482A83C180CD4FF283D3535706DF73F /* README.md */,
-			);
-			name = Pod;
+			name = EnjHomeModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -230,14 +233,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A32C1B6D814F59F1791DE6B30CBEBA4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68E5F222CF4070DE41B0F528F9CE8F4D /* EnjHomeModule-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1E2E90205B68804183171CE793149B74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +246,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DB2AF6F7711C01E95DA890DC7662614 /* Pods-EnjHomeModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A675C32486479604102CCC3EDC6D6AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD046C5205281C926F55CF92A4887F3 /* EnjHomeModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +278,13 @@
 			productReference = 09B32AE75271EA74E923912436D3D207 /* Pods_EnjHomeModule_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EFE35C258A0F92E1857B5E382996BE80 /* EnjHomeModule */ = {
+		B96BC3B3DE2FC940EC5C3F18C49D83C0 /* EnjHomeModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C116E98963047D32BA555EC3D2109AD8 /* Build configuration list for PBXNativeTarget "EnjHomeModule" */;
+			buildConfigurationList = BF862689A3F5B512EC1F6B73B28C449B /* Build configuration list for PBXNativeTarget "EnjHomeModule" */;
 			buildPhases = (
-				C49E69DB7186C914322EC1E419E99D1C /* Sources */,
-				85F6AD87E2FA74CD6B45318D3FB08C57 /* Frameworks */,
-				1A32C1B6D814F59F1791DE6B30CBEBA4 /* Headers */,
+				5CA7D7989DC476B795CD0266CD0A729D /* Sources */,
+				A1A4FE3D81DC00A024B0FCD85B976C62 /* Frameworks */,
+				8A675C32486479604102CCC3EDC6D6AC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -331,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFE35C258A0F92E1857B5E382996BE80 /* EnjHomeModule */,
+				B96BC3B3DE2FC940EC5C3F18C49D83C0 /* EnjHomeModule */,
 				F6529E143369C84BE775D69E8A69F931 /* Pods-EnjHomeModule_Example */,
 				A8A0D9ECECDA1780A868FF61799F6524 /* Pods-EnjHomeModule_Tests */,
 			);
@@ -339,20 +342,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5CA7D7989DC476B795CD0266CD0A729D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA024A95AB17A7FBFC05EE827A5ECAD3 /* AppSecurity.swift in Sources */,
+				87FE8B2CB15FA02C42411D061C8E6C5E /* EnjHomeModule-dummy.m in Sources */,
+				5D74D5D120303081EA7941D4BD4FBB0D /* Exc_007.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B45EA7C9BDE684CA2F4727178E5879D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EA1DE3BA89197FDE7DD1EAD0C5F5F201 /* Pods-EnjHomeModule_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49E69DB7186C914322EC1E419E99D1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01051B9883D8269E87CACB18554E0616 /* AppSecurity.swift in Sources */,
-				5CCBB87842912E989EE9E33B1210ABC5 /* EnjHomeModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +380,7 @@
 		BB89E9A0D0CBEC6EEADAD19BCD779134 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EnjHomeModule;
-			target = EFE35C258A0F92E1857B5E382996BE80 /* EnjHomeModule */;
+			target = B96BC3B3DE2FC940EC5C3F18C49D83C0 /* EnjHomeModule */;
 			targetProxy = DF38805B08D2001145AE3B934852F418 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,9 +419,9 @@
 			};
 			name = Debug;
 		};
-		5AD616B63D6442A0225CE425B796C1D4 /* Release */ = {
+		2C0BD874A6B0C97B6583B2C0A4A41A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2109055CCA049DC27E0AE4727DB1064A /* EnjHomeModule.xcconfig */;
+			baseConfigurationReference = 8D10B897367EBD7750532D252F80912B /* EnjHomeModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -439,14 +443,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7DAD6F7F009786F701B167C31417DCB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -482,6 +485,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		803AD51409F1B84C7B6DEB434BA05529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D10B897367EBD7750532D252F80912B /* EnjHomeModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EnjHomeModule/EnjHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EnjHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EnjHomeModule/EnjHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = EnjHomeModule;
+				PRODUCT_NAME = EnjHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -673,38 +709,6 @@
 			};
 			name = Release;
 		};
-		FC0E073736903FE6005754E03D77BE01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2109055CCA049DC27E0AE4727DB1064A /* EnjHomeModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EnjHomeModule/EnjHomeModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EnjHomeModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EnjHomeModule/EnjHomeModule.modulemap";
-				PRODUCT_MODULE_NAME = EnjHomeModule;
-				PRODUCT_NAME = EnjHomeModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -735,11 +739,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C116E98963047D32BA555EC3D2109AD8 /* Build configuration list for PBXNativeTarget "EnjHomeModule" */ = {
+		BF862689A3F5B512EC1F6B73B28C449B /* Build configuration list for PBXNativeTarget "EnjHomeModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC0E073736903FE6005754E03D77BE01 /* Debug */,
-				5AD616B63D6442A0225CE425B796C1D4 /* Release */,
+				2C0BD874A6B0C97B6583B2C0A4A41A7F /* Debug */,
+				803AD51409F1B84C7B6DEB434BA05529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
