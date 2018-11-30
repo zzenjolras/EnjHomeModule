@@ -1,0 +1,6 @@
+framework module EnjHomeModule {
+  umbrella header "EnjHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

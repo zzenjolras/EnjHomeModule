@@ -1,0 +1,16 @@
+PODS:
+  - EnjHomeModule (0.1.0)
+
+DEPENDENCIES:
+  - EnjHomeModule (from `../`)
+
+EXTERNAL SOURCES:
+  EnjHomeModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EnjHomeModule: 9b58eec83b9aeeccd3689243ac5a306b7a24e92a
+
+PODFILE CHECKSUM: d90edd109f1a7bc075726f54a830f0154775c284
+
+COCOAPODS: 1.5.0
